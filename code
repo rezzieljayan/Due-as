@@ -1,0 +1,103 @@
+<div class="col-sm-4 left-con">
+				<div class="left-child-con">
+					<center>
+						<img src="src/image/gmail.png" class="company-logo" />
+						<h2 class="mb-3">
+							COMPANY<br />
+							NAME
+						</h2>
+						<p style="font-size: 15px; letter-spacing: 2px">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni illo dolores voluptas quasi
+							at aperiam deleniti cupiditate ipsam minima! Repellat placeat ipsa doloremque temporibus
+						</p>
+					</center>
+				</div>
+			</div>
+			<div class="col-sm-8 right-con">
+				<h1>Login</h1>
+				<span>Lorem ipsum dolor sit</span><br /><br />
+				<span>Username</span>
+				<input type="text" class="form-control mb-3" aria-label="Username" aria-describedby="basic-addon1" />
+				<span>Password</span>
+				<input
+					type="password"
+					class="form-control mb-3"
+					aria-label="Username"
+					aria-describedby="basic-addon1"
+				/>
+				<div style="display: flex">
+					<input type="checkbox" class="remember-checkbox" />
+					<p style="display: inline-block; margin-top: 10px; margin-left: 10px">Remember me</p>
+				</div>
+				<br /><br />
+
+				<button type="button" class="btn btn-dark submit-btn">Sign in</button>
+				<span class="footer-text">Footer | footer</span>
+			</div>
+
+
+
+
+
+
+
+
+
+            body {
+	overflow-x: hidden;
+}
+
+.left-con {
+	background-image: url('../image/desktop.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	padding: 0px;
+}
+.left-child-con {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 25vh 6vw 0 6vw;
+	width: 100%;
+	height: 100vh;
+	color: white;
+}
+.company-logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+
+.right-con {
+	padding-left: 4vw;
+	padding-right: 40vw;
+	padding-top: 20vh;
+	position: relative;
+	padding-bottom: 20vh;
+}
+@media only screen and (max-width: 500px) {
+	.right-con {
+		padding-left: 10vw;
+	}
+}
+.submit-btn {
+	width: 140px;
+}
+.remember-checkbox {
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.footer-text {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	font-weight: lighter;
+	font-size: 15px;
+}
